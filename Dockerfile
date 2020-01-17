@@ -3,4 +3,4 @@ FROM ubuntu
 #RUN pip install -r requirements.txt
 ADD downloadManga.py ./dockerapp
 EXPOSE 5000
-VOLUME [ "/home/kabir/Bureau/projetbd/downloadManga.py" ]
+RUN echo "PATH=/opt/downloadManga/: $ PATH" >> ˜  / .bashrc
